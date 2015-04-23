@@ -13,6 +13,12 @@ Entity {
     property Material material
     property string objfile: "obj/cube.obj"
 
+    material: DiffuseMapMaterial {
+        id: material
+        diffuse: "shaders/mdfplatte.png"
+        specular: Qt.rgba( 0.2, 0.2, 0.2, 1.0 )
+        shininess: 2.0
+    }
 
     components: [ transform, top, root.material]
 

@@ -27,20 +27,19 @@ Entity {
         controlledCamera: mainCamera
     }
 
-    NormalDiffuseSpecularMapMaterial {
-        id: ndsmm
-        ambient: Qt.rgba( 0.2, 0.2, 0.2, 1.0 )
-        diffuse:  "shaders/diffus_black.webp"
-        specular: "shaders/diffus_black.webp"
-        normal:   "shaders/diffus_black.webp"
-        textureScale: 10.0
-        shininess: 80.0
-    }
+//    DiffuseMapMaterial {
+//        id: ndsmm
+//        //ambient: Qt.rgba( 0.2, 0.2, 0.2, 1.0 )
+//        diffuse:  "qrc:/shaders/mdfplatte.png"
+//        //textureScale: 1.0
+//        specular: Qt.rgba( 0.2, 0.2, 0.2, 1.0 )
+//        shininess: 2.0
+//    }
 
     Workpiece {
         id: cube
         objfile: "obj/cube.obj"
-        material: ndsmm
+        //material: ndsmm
     }
 
 

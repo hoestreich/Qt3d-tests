@@ -60,14 +60,6 @@
         <file>SortedForwardRenderer.qml</file>
         <file>Workpiece.qml</file>
         <file>WorkpieceView.qml</file>
-        <file>obj/1_LeftTop.obj</file>
-        <file>obj/2_RightTop.obj</file>
-        <file>obj/3_LeftFront.obj</file>
-        <file>obj/4_RightFront.obj</file>
-        <file>obj/5_Top.obj</file>
-        <file>obj/6_Front.obj</file>
-        <file>obj/7_PlainBack.obj</file>
-        <file>obj/8_PlainFront.obj</file>
-        <file>obj/X_Bottom.obj</file>
+        <file>shaders/mdfplatte.png</file>
     </qresource>
 </RCC>
