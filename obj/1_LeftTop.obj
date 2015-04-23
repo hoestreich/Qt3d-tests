@@ -1,0 +1,21 @@
+# Blender v2.74 (sub 0) OBJ File: 'IPARA_PROTOTYPE.blend'
+# www.blender.org
+mtllib 1_LeftTop.mtl
+o WPTopBackAngledBtn_Plane.071
+v 0.600000 1.010000 3.880000
+v 0.600000 1.010000 3.280000
+v 0.000000 1.010000 3.880000
+v 0.000000 1.010000 3.280000
+vn 0.000000 1.000000 0.000000
+usemtl Btn1
+s off
+f 1//1 2//1 4//1 3//1
+o WPTopBackAngled_Plane.002
+v -5.000000 1.000000 3.999334
+v 1.000000 1.000000 3.999333
+v 1.000000 1.000000 2.999333
+v -2.000000 1.000000 2.999333
+vn -0.000000 1.000000 0.000000
+usemtl SideEdge
+s off
+f 5//2 6//2 7//2
